@@ -46,7 +46,7 @@ nav a{
     margin:20px;
 }
 
-/**styling the aside**/
+/**styling the settings panel**/
 fieldset{
 
     border-radius: 10px;
@@ -126,9 +126,11 @@ div#lists p{
 }
 
 div#lists p:hover{
-    background: #4444;
+    background: #8f2d2d;
 }
 
+
+/* This code styles the items from the databse */
 table{
     width: 80%;
     border-collapse: collapse;
@@ -146,7 +148,7 @@ table tr:nth-child(odd){
 table tr td ,th{
     padding: 10px;
 }
-
+/* this code styles the footer */
 footer{
     background: #202222;
     color: #ffffff;

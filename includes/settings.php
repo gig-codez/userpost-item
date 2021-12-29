@@ -1,4 +1,5 @@
-
+<!-- Turyahebwa Alex 18/U/23405/EVE
+    This is the code for displaying the settings panel -->
 <fieldset>
     <legend>Settings</legend>
         <aside>
@@ -8,7 +9,7 @@
             <select class="textS">
                 <option value="tiny">Tiny</option>
                 <option value="small">Small</option>
-                <option value="normal">Normal</option>
+                <option value="normal" selected>Normal</option>
                 <option value="large">Large</option>
             </select>
         </div>
@@ -61,7 +62,7 @@
                 break;
 
                 case "large":
-                document.querySelector("*").style.fontSize = "30px";
+                document.querySelector("*").style.fontSize = "25px";
                 break;
            }
         }

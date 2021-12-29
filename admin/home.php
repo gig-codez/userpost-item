@@ -72,7 +72,12 @@
      </body>
      <?php include"../includes/footer.php"?>
 </html>
+<!-- 
 
+/***
+   *  @Turyahebwa Alex 18/U/23405/EVE
+   */
+ -->
 <?php
     }else{
         header("location:index.php");

@@ -1,6 +1,8 @@
 <?php
+# here we initialise the session object
     session_start();
     include"includes/connect.php";
+    # if the session have value or set then your a valid user
     if (!empty($_SESSION["user"])) {
 ?>
 <html>
@@ -52,4 +54,7 @@
     }else{
         header("location:index.php");
     }
+    /***
+   *  @Turyahebwa Alex 18/U/23405/EVE
+   */
 ?>

@@ -25,11 +25,14 @@
     </div>
     <br/>
     <br/>
-
+<!-- this code displays the user login panel -->
       <form action="login.php" method="POST">
+<!-- Here the inputs username -->
+
           <label for="">Username</label>
           <input type="text" name="username" id=""/>
 <br/>
+<!-- Here the inputs password -->
           <label for="">Password</label>
           <input type="password" name="passcode" id=""/>
 <br/>
@@ -43,5 +46,9 @@
   <br>
   <br>
   <br>
+<!-- Here the we are adding the footer code /***
+   *  @Turyahebwa Alex 18/U/23405/EVE
+   */-->
+
   <?php include"includes/footer.php"?>
 </html>
